@@ -1,0 +1,17 @@
+From the AKI-on-CKD cohort, compare potassium values at the time of discharge between patients whose RAASi was continued/restarted and those whose RAASi was not restarted.
+
+Please:
+
+Use the previously defined RAASi discharge groups.
+
+Retrieve the serum/plasma potassium value closest to discharge during the AKI hospitalization.
+
+Exclude duplicate and non-blood potassium results.
+
+Include patient ID, encounter ID, discharge date, RAASi group, potassium value, result timestamp, and units.
+
+Compare the two groups using mean, median, IQR, and frequency above the laboratory upper reference limit.
+
+Show the tables, joins, and definition used for the discharge potassium.
+
+Generate the final Databricks SQL/Spark SQL query.
