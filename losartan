@@ -1,0 +1,12 @@
+From the **AKI-on-CKD cohort identified previously**, find patients who were on **losartan before AKI onset**.
+
+Please:
+- Use the existing AKI-on-CKD cohort.
+- Identify losartan from medication orders, medication lists, or pharmacy data.
+- Include both **losartan alone and combination products containing losartan** (e.g., losartan/HCTZ).
+- When possible, identify exposure using **active ingredient/generic ingredient fields**, not only medication name text.
+- Define exposure as active losartan use before AKI onset/admission.
+- Exclude losartan started only after AKI onset.
+- Include patient ID, encounter ID, AKI date, medication/product name, losartan dose, combination ingredients, start/stop dates, and medication status.
+- Show the medication table, join key, and exposure definition.
+- Generate the final **Databricks SQL/Spark SQL query**.
