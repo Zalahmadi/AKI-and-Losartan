@@ -1,0 +1,11 @@
+From the **AKI-on-CKD cohort identified previously**, identify patients whose **RAAS inhibitor (RAASi) was continued/restarted at discharge from the AKI encounter**.
+
+Please:
+- Use the existing AKI-on-CKD cohort.
+- Identify RAASi use before AKI and determine whether it was **active on the discharge medication list**.
+- Include ACE inhibitors and ARBs, including **combination products containing a RAASi**.
+- Prefer generic/active ingredient fields rather than medication-name text alone.
+- Exclude medications discontinued/held at discharge.
+- Include patient ID, encounter ID, AKI admission/discharge dates, RAASi name, dose, combination ingredients, and discharge medication status.
+- Show the medication table, join key, and definition used for **RAASi continued at discharge**.
+- Generate the final **Databricks SQL/Spark SQL query**.
